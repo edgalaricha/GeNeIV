@@ -98,10 +98,9 @@ UMAP_plot <- ggplot(UMAP_plot, aes(UMAP1, UMAP2, color = subtype)) +
     legend.key           = element_blank(),
     legend.title         = element_text(size = 9),
     legend.text          = element_text(size = 8),
-    # afastar títulos dos eixos:
+
     axis.title.x         = element_text(margin = margin(t = 6, unit = "mm")),
     axis.title.y         = element_text(margin = margin(r = 6, unit = "mm")),
-    # (opcional) afastar também os rótulos dos ticks
     axis.text.x          = element_text(margin = margin(t = 2, unit = "mm")),
     axis.text.y          = element_text(margin = margin(r = 2, unit = "mm"))
   ) +
